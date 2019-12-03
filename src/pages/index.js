@@ -46,7 +46,7 @@ const IndexPage = () => (
             It's straight forward there's just no time to spear.
           </p>
         </header>
-        <form method="post" action="#">
+        <form name="contact" method="POST" data-netlify="true" action="#">
           <div className="row gtr-50 gtr-uniform">
             <div className="col-8 ">
               <input
@@ -163,7 +163,7 @@ const IndexPage = () => (
       </div>
       <div className="inner">
         <header>
-          <form method="post" action="#">
+          <form name="contact" method="POST" data-netlify="true">
             <div className="col-8 ">
               <input
                 type="email"
