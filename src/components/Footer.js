@@ -1,5 +1,5 @@
-import React from 'react';
-import config from '../../config';
+import React from "react";
+import config from "../../config";
 export default function Footer() {
   return (
     <footer id="footer">
@@ -16,9 +16,9 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; Spectral</li>
+        <li>&copy; Maghin inc.</li>
         <li>
-          Design: <a href="http://html5up.net">HTML5 UP</a>
+          Design: <a href="https://github.com/maghin0">maghin</a>
         </li>
       </ul>
     </footer>

@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
 
-import Scroll from '../components/Scroll';
+import Scroll from "../components/Scroll";
 
-import pic1 from '../assets/images/love.jpg';
-import pic2 from '../assets/images/work.jpg';
-import pic3 from '../assets/images/heart.jpg';
-import config from '../../config';
+import pic1 from "../assets/images/love.jpg";
+import pic2 from "../assets/images/work.jpg";
+import pic3 from "../assets/images/heart.jpg";
+import config from "../../config";
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -75,17 +75,15 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={pic1} alt="mans arms around her shoulders" />
         </div>
         <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
+          <h2>Database auto matching</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            It's unbelievable to have to meet individuals face to face, what are
+            the chances..! <br />
+            Still remember your "perfect man" check list? no, you gave up on it
+            along time ago... make one! we'll take that from you
           </p>
         </div>
       </section>
@@ -95,13 +93,13 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Tortor dolore feugiat
+            What you need
             <br />
-            elementum magna
+            not what you wish for
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            I know I know it's amazing to have a santa... but we grew out of
+            that 10 years ago? maybe not! so santa is here.
           </p>
         </div>
       </section>
@@ -111,13 +109,14 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
+            We are look for him
             <br />
-            sed condimentum
+            so you don't have to
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            there is a lot of shit to do in life, it's crazy.
+            <br />
+            well why are you still here go go.
           </p>
         </div>
       </section>
