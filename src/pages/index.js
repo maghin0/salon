@@ -7,6 +7,7 @@ import Scroll from "../components/Scroll";
 import pic1 from "../assets/images/love.jpg";
 import pic2 from "../assets/images/work.jpg";
 import pic3 from "../assets/images/heart.jpg";
+import pic4 from "../assets/images/merna.jpg";
 import config from "../../config";
 const IndexPage = () => (
   <Layout>
@@ -128,33 +129,30 @@ const IndexPage = () => (
           <h2>Made by doctors for doctors</h2>
           <p>A huge thanks to doctors who made effort into this program</p>
         </header>
-        <section className="spotlight">
-          <div className="image">
-            <img src={pic3} alt="" />
+
+        <section className="row gtr-50 gtr-uniform">
+          <div className=" col-4">
+            <img className="image fit" src={pic4} alt="" />
+            <blockquote>
+              The boys, they are too shy. It's a deal breaker.
+            </blockquote>
           </div>
-          <blockquote>
-            The boys, they are too shy. It's a deal breaker.
-          </blockquote>
-        </section>
-        <br></br>
-        <section className="spotlight">
-          <div className="image">
-            <img src={pic3} alt="" />
+
+          <div className=" col-4">
+            <img className="image fit" src={pic4} alt="" />
+            <blockquote>
+              To make sure what we want is what we get this is just an
+              alternative method for reproduction
+            </blockquote>
           </div>
-          <blockquote>
-            To make sure what we want is what we get this is just an alternative
-            method for reproduction
-          </blockquote>
-        </section>
-        <br></br>
-        <section className="spotlight">
-          <div className="image">
-            <img src={pic3} alt="" />
+
+          <div className=" col-4">
+            <img className="image fit" src={pic4} alt="" />
+            <blockquote>
+              To make sure what we want is what we get this is just an
+              alternative method for reproduction
+            </blockquote>
           </div>
-          <blockquote>
-            To make sure what we want is what we get this is just an alternative
-            method for reproduction
-          </blockquote>
         </section>
       </div>
     </section>

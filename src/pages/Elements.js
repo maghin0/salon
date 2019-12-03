@@ -310,7 +310,7 @@ const IndexPage = () => <Layout>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-12"><span className="image fit"><img src={banner} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span>if i type here where </div>
 							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
 							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
 							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>

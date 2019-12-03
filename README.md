@@ -1,9 +1,9 @@
-# gatsby-starter-spectral
+# No Time for "the one"
 
-Gatsby.js V2
+using Gatsby.js V2
 
 ![Screenshot](./src/assets/img/time.jpg)
-
+Time is c
 our landing page [here](https://salon-sassy.netlify.com/)
 
 ## Screenshot
