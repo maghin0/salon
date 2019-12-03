@@ -133,8 +133,7 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </div>
           <blockquote>
-            To make sure what we want is what we get this is just an alternative
-            method for reproduction
+            The boys, they are too shy. It's a deal breaker.
           </blockquote>
         </section>
         <br></br>
