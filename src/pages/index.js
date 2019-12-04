@@ -52,7 +52,12 @@ const IndexPage = () => (
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="contact1" value="contact" />
+          <input
+            type="hidden"
+            name="contact1"
+            value="contact1"
+            action="./404"
+          />
           <div className="row gtr-50 gtr-uniform">
             <div className="col-8 ">
               <input
