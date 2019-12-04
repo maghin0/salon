@@ -46,7 +46,13 @@ const IndexPage = () => (
             It's straight forward there's just no time to spare.
           </p>
         </header>
-        <form name="contact" method="POST" data-netlify="true" action="#">
+        <form
+          name="contact1"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="contact1" value="contact" />
           <div className="row gtr-50 gtr-uniform">
             <div className="col-8 ">
               <input
@@ -104,7 +110,7 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            We are look for him
+            We look for him
             <br />
             so you don't have to
           </h2>
