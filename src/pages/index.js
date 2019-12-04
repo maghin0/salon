@@ -183,7 +183,8 @@ const IndexPage = () => (
         <h2>We'll let you know as soon as we launch</h2>
       </div>
       <div className="inner col-12 ">
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST" data-netlify="true" action="./404">
+          <input type="hidden" name="contact" value="contact" />
           <div className="row ">
             <div className="col-10 ">
               <input

@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import Layout from '../components/Layout';
+import Layout from "../components/Layout";
 
 const IndexPage = () => (
-  <Layout fullMenu>
+  <Layout>
     <article id="main">
       <header>
-        <h2>Not Found</h2>
-        <p>Not a Valid URL</p>
+        <h2>thank you</h2>
+        <p>we will send you an email as soon as we launch</p>
       </header>
     </article>
   </Layout>
