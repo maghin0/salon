@@ -43,7 +43,7 @@ const IndexPage = () => (
           <p>
             Here we do traditional online, bring YOUR salon
             <br />
-            It's straight forward there's just no time to spear.
+            It's straight forward there's just no time to spare.
           </p>
         </header>
         <form name="contact" method="POST" data-netlify="true" action="#">
@@ -51,22 +51,16 @@ const IndexPage = () => (
             <div className="col-8 ">
               <input
                 type="email"
-                name="demo-email"
-                id="demo-email"
+                name="email"
+                id="email"
                 defaultValue=""
                 placeholder="youremail@gmail.com"
               />
             </div>
-            <div className="col-4">
-              <ul className="actions fit">
-                <li>
-                  <input
-                    type="button"
-                    value="Early Access"
-                    className="primary"
-                  />
-                </li>
-              </ul>
+            <div className="col-4 ">
+              <button type="submit" className="primary fit">
+                Early Access
+              </button>
             </div>
           </div>
         </form>
@@ -131,29 +125,50 @@ const IndexPage = () => (
         </header>
 
         <section className="row gtr-50 gtr-uniform">
-          <div className=" col-4">
+          <div className=" col-6">
             <img className="image fit" src={pic4} alt="" />
-            <blockquote>
-              The boys, they are too shy. It's a deal breaker.
-            </blockquote>
+          </div>
+
+          <div className=" col-6">
+            <img className="image fit" src={pic4} alt="" />
           </div>
 
           <div className=" col-4">
             <img className="image fit" src={pic4} alt="" />
-            <blockquote>
-              To make sure what we want is what we get this is just an
-              alternative method for reproduction
-            </blockquote>
+          </div>
+          <div className=" col-4">
+            <img className="image fit" src={pic4} alt="" />
           </div>
 
           <div className=" col-4">
             <img className="image fit" src={pic4} alt="" />
-            <blockquote>
-              To make sure what we want is what we get this is just an
-              alternative method for reproduction
-            </blockquote>
           </div>
+          <p>
+            These It's unbelievable to have to meet individuals face to , what
+            are the chances..! <br />
+            Still remember your "perfect man" check list? no, you gave up on it
+            along time ago... make one! we'll take that from you
+          </p>
         </section>
+        <div>
+          <br />
+          <br />
+          <h6>These doctor's thoughts on the program</h6>
+          <br />
+          <blockquote>
+            "The boys, they are too shy. It's a deal breaker." <br />
+            -Dr. Mona Solaiman
+          </blockquote>
+          <blockquote>
+            "To make sure what we want is what we get this is just an
+            alternative method for reproduction" <br />
+            -Dr. Mona Solaiman
+          </blockquote>
+          <blockquote>
+            "To make sure what we want is what we get this is just an
+            alternative method for reproduction" <br /> -Dr. Mona Solaiman
+          </blockquote>
+        </div>
       </div>
     </section>
 
@@ -161,10 +176,10 @@ const IndexPage = () => (
       <div className="inner">
         <h2>We'll let you know as soon as we launch</h2>
       </div>
-      <div className="inner">
-        <header>
-          <form name="contact" method="POST" data-netlify="true">
-            <div className="col-8 ">
+      <div className="inner col-12 ">
+        <form name="contact" method="POST" data-netlify="true">
+          <div className="row ">
+            <div className="col-10 ">
               <input
                 type="email"
                 name="email"
@@ -173,15 +188,13 @@ const IndexPage = () => (
                 placeholder="youremail@gmail.com"
               />
             </div>
-          </form>
-        </header>
-        <ul className="actions stacked">
-          <li>
-            <a href="/#" className="button fit primary">
-              Early access
-            </a>
-          </li>
-        </ul>
+            <div className="col-2 ">
+              <button type="submit" className="primary ">
+                Early Access
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
   </Layout>
