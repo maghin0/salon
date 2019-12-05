@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Layout from "../components/Layout";
 
@@ -64,9 +65,11 @@ const IndexPage = () => (
               />
             </div>
             <div className="col-4 ">
-              <button type="submit" className="primary fit" action="./404">
-                Early Access
-              </button>
+              <Link to="./404">
+                <button type="submit" className="primary fit">
+                  Early Access
+                </button>
+              </Link>
             </div>
           </div>
         </form>
@@ -196,9 +199,11 @@ const IndexPage = () => (
               />
             </div>
             <div className="col-2 ">
-              <button type="submit" className="primary ">
-                Early Access
-              </button>
+              <Link to="./404">
+                <button type="submit" className="primary ">
+                  Early Access
+                </button>
+              </Link>
             </div>
           </div>
         </form>
