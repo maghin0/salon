@@ -66,8 +66,8 @@ const IndexPage = () => (
             </div>
             <div className="col-4 ">
               <Link to="./404">
-                <button type="submit" className="primary fit">
-                  Early Access
+                <button type="submit" className="primary small ">
+                  Send
                 </button>
               </Link>
             </div>
@@ -200,8 +200,8 @@ const IndexPage = () => (
             </div>
             <div className="col-2 ">
               <Link to="./404">
-                <button type="submit" className="primary ">
-                  Early Access
+                <button type="submit" className="primary  ">
+                  send
                 </button>
               </Link>
             </div>
