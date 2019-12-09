@@ -1,12 +1,12 @@
 module.exports = {
   siteTitle: "Salon", // <title>
-  manifestName: "Salon dates",
-  manifestShortName: "Landing", // max 12 characters
-  manifestStartUrl: "/",
+  manifestName: "Salon web app",
+  manifestShortName: "Salon app", // max 12 characters
+  manifestStartUrl: "src/pages/index",
   manifestBackgroundColor: "#663399",
   manifestThemeColor: "#ffffff",
   manifestDisplay: "standalone",
-  manifestIcon: "src/assets/img/time.jpg",
+  manifestIcon: "src/assets/img/heart.jpg",
   pathPrefix: `/Salon/`, // This path is subpath of your hosting https://domain/portfolio
   heading: "Salon",
   subHeading: "Time is too crucial, leave me on instagram  ",
