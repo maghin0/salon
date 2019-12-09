@@ -181,15 +181,15 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="cta" className="wrapper style4">
+    <section id="three" className="wrapper style4 special">
       <div className="inner">
         <h2>We'll let you know as soon as we launch</h2>
       </div>
-      <div className="inner col-12 ">
+      <div className="inner  ">
         <form name="contact" method="POST" data-netlify="true" action="./404">
           <input type="hidden" name="contact" value="contact" />
           <div className="row ">
-            <div className="col-10 ">
+            <div className="col-8 ">
               <input
                 type="email"
                 name="email"
@@ -198,10 +198,10 @@ const IndexPage = () => (
                 placeholder="youremail@gmail.com"
               />
             </div>
-            <div className="col-2 ">
+            <div className="col-4 ">
               <Link to="./404">
                 <button type="submit" className="primary  ">
-                  send
+                  Send
                 </button>
               </Link>
             </div>
