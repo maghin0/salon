@@ -1,15 +1,17 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react';
+import { Link } from 'gatsby';
 
-import Layout from "../components/Layout";
+import Layout from '../components/Layout';
 
-import Scroll from "../components/Scroll";
+import Scroll from '../components/Scroll';
 
-import pic1 from "../assets/images/love.jpg";
-import pic2 from "../assets/images/work.jpg";
-import pic3 from "../assets/images/heart.jpg";
-import pic4 from "../assets/images/merna.jpg";
-import config from "../../config";
+import step1 from '../assets/images/step1.jpg';
+import step2 from '../assets/images/step2.jpg';
+import step3 from '../assets/images/step3.jpg';
+import step4 from '../assets/images/step4.jpg';
+
+import pic4 from '../assets/images/merna.jpg';
+import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -20,7 +22,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                What's this?
+                Who are we
               </a>
             </Scroll>
           </li>
@@ -36,15 +38,13 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>
-            Love is a thing of the past
-            <br />
-            Assets and money baby
-          </h2>
+          <h2>The way for online arranged marriages!</h2>
           <p>
-            Here we do traditional online, bring YOUR salon
-            <br />
-            It's straight forward there's just no time to spare.
+            Once we launch our website, you'll be able to find your spouse with
+            ease. Once you enter your personal information and your preferences,
+            we'll match you with your perfect fit! No more fear of getting
+            rejected or the embarrassment and awkwardness involved, you'll only
+            meet the person who wants you!
           </p>
         </header>
         <form
@@ -79,48 +79,53 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="mans arms around her shoulders" />
+          <img src={step1} alt="a women filling in a sign up form" />
         </div>
         <div className="content">
-          <h2>Database auto matching</h2>
+          <h2>Step 1:</h2>
           <p>
-            It's unbelievable to have to meet individuals face to face, what are
-            the chances..! <br />
-            Still remember your "perfect man" check list? no, you gave up on it
-            along time ago... make one! we'll take that from you
+            Create an account and add your personal information (your college
+            degree, salary, height, weight, skin tone etc.)
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={step2} alt="" />
         </div>
         <div className="content">
-          <h2>
-            What you need
-            <br />
-            not what you wish for
-          </h2>
+          <h2>Step 2:</h2>
           <p>
-            I know I know it's amazing to have a santa... but we grew out of
-            that 10 years ago? maybe not! so santa is here.
+            Add your preferences. What are you looking for in your partner? What
+            salary range? What look? What college degree you prefer them to
+            have, if any?
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={step3} alt="" />
         </div>
         <div className="content">
-          <h2>
-            We look for him
-            <br />
-            so you don't have to
-          </h2>
+          <h2>Step 3:</h2>
           <p>
-            there is a lot of shit to do in life, it's crazy.
-            <br />
-            well why are you still here go go.
+            Wait to get matched! We'll run your preferences and personal
+            information through our data base and find the people who meet your
+            preferences and you meet theirs!
+          </p>
+        </div>
+      </section>
+
+      <section className="spotlight">
+        <div className="image">
+          <img src={step4} alt="" />
+        </div>
+        <div className="content">
+          <h2>Step 4:</h2>
+          <p>
+            Meet your future spouse! Once you are matched, your contact
+            information will be shared with your potential spouse and you can
+            connect and meet up in real life to get to know each other.
           </p>
         </div>
       </section>
@@ -157,6 +162,10 @@ const IndexPage = () => (
             are the chances..! <br />
             Still remember your "perfect man" check list? no, you gave up on it
             along time ago... make one! we'll take that from you
+            <p>
+              If you're interested in what we provide, put your email to get
+              notified as soon as we launch the website!
+            </p>
           </p>
         </section>
         <div>
