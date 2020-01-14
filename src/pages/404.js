@@ -1,13 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
-import Layout from "../components/Layout";
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout>
     <article id="main">
       <header>
-        <h2>thank you</h2>
-        <p>we will send you an email as soon as we launch</p>
+        <h2>404</h2>
+        <p>Error</p>
         <Link to="#">
           <button type="submit" className="primary ">
             Back to homepage

@@ -3,7 +3,8 @@
 using Gatsby.js V2
 
 ![Screenshot](./src/assets/img/time.jpg)
-Time is c
+Time to find someone that's similar
+
 our landing page [here](https://salon-sassy.netlify.com/)
 
 ## Screenshot

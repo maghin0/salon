@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import step1 from '../assets/images/step1.jpg';
+import step1 from '../assets/images/step11.jpg';
 import step2 from '../assets/images/step2.jpg';
 import step3 from '../assets/images/step3.jpg';
 import step4 from '../assets/images/step4.jpg';
@@ -15,6 +15,13 @@ import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
+      <div className="arabic top-right">
+        <Link to="./Ar">
+          <span role="img" alt="arabic language">
+            <h1> العربية </h1>
+          </span>
+        </Link>
+      </div>
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -22,7 +29,7 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Who are we
+                How it works?
               </a>
             </Scroll>
           </li>
@@ -65,7 +72,7 @@ const IndexPage = () => (
               />
             </div>
             <div className="col-4 ">
-              <Link to="./404">
+              <Link to="./Success">
                 <button type="submit" className="primary small ">
                   Send
                 </button>
@@ -129,6 +136,17 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
+      <section className="wrapper style1">
+        <div className="content inner">
+          <p>
+            <br />
+            "It's unbelievable to have to meet individuals face to , what are
+            the chances..! <br />
+            Still remember your "perfect man" check list? no, you gave up on it
+            along time ago... make one! we'll take that from you"
+          </p>
+        </div>
+      </section>
     </section>
 
     <section id="three" className="wrapper style3 special">
@@ -157,16 +175,6 @@ const IndexPage = () => (
           <div className=" col-4">
             <img className="image fit" src={pic4} alt="" />
           </div>
-          <p>
-            These It's unbelievable to have to meet individuals face to , what
-            are the chances..! <br />
-            Still remember your "perfect man" check list? no, you gave up on it
-            along time ago... make one! we'll take that from you
-            <p>
-              If you're interested in what we provide, put your email to get
-              notified as soon as we launch the website!
-            </p>
-          </p>
         </section>
         <div>
           <br />
@@ -208,7 +216,7 @@ const IndexPage = () => (
               />
             </div>
             <div className="col-4 ">
-              <Link to="./404">
+              <Link to="./Success">
                 <button type="submit" className="primary  ">
                   Send
                 </button>

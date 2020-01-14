@@ -6,9 +6,10 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#ffffff',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/heart.jpg',
+  manifestIcon: 'src/assets/img/logo.png',
   pathPrefix: `/Salon/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Salon',
+  subHeadingAr: 'زواج صالونات اون لاين',
   subHeading: 'The way for online arranged marriages!',
   // social
   socialLinks: [
