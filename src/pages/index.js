@@ -140,10 +140,14 @@ const IndexPage = () => (
         <div className="content inner">
           <p>
             <br />
-            "It's unbelievable to have to meet individuals face to , what are
-            the chances..! <br />
-            Still remember your "perfect man" check list? no, you gave up on it
-            along time ago... make one! we'll take that from you"
+            It's unbelievable you still have to meet your possible love with
+            daily face to face encounters 🤦‍♂️, I mean what are your chances...
+            <br />
+            Do you Still remember your "perfect man" 🤷‍♀️ check list? I don't
+            think so, you probably gave up on it along time ago...😂 make one!
+            and we'll take that from you. <br />
+            Now we'll do all the heavy stuff, we'll try and find your list in
+            our database 🤞, you just wait like a boss😎.
           </p>
         </div>
       </section>
@@ -179,7 +183,7 @@ const IndexPage = () => (
         <div>
           <br />
           <br />
-          <h6>These doctor's thoughts on the program</h6>
+          <h6>Doctor's thoughts on the program</h6>
           <br />
           <blockquote>
             "The boys, they are too shy. It's a deal breaker." <br />
