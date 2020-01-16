@@ -10,7 +10,7 @@ import step2 from '../assets/images/step2.jpg';
 import step3 from '../assets/images/step3.jpg';
 import step4 from '../assets/images/step4.jpg';
 
-import pic4 from '../assets/images/merna.jpg';
+import pic4 from '../assets/images/mona.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
