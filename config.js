@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Salon', // <title>
   manifestName: 'Salon web app',
-  manifestShortName: 'Salon app', // max 12 characters
+  manifestShortName: 'Salon', // max 12 characters
   manifestStartUrl: 'src/pages/index',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#ffffff',

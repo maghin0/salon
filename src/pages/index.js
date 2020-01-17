@@ -136,21 +136,6 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-      <section className="wrapper style1">
-        <div className="content inner">
-          <p>
-            <br />
-            It's unbelievable you still have to meet your possible love with
-            daily face to face encounters 🤦‍♂️, I mean what are your chances...
-            <br />
-            Do you Still remember your "perfect man" 🤷‍♀️ check list? I don't
-            think so, you probably gave up on it along time ago...😂 make one!
-            and we'll take that from you. <br />
-            Now we'll do all the heavy stuff, we'll try and find your list in
-            our database 🤞, you just wait like a boss😎.
-          </p>
-        </div>
-      </section>
     </section>
 
     <section id="three" className="wrapper style3 special">
