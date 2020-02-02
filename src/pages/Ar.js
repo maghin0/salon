@@ -136,21 +136,38 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-      <section className="wrapper style1">
-        <div className="content inner">
-          <p>
-            <br />
-            It's unbelievable you still have to meet your possible love with
-            daily face to face encounters 🤦‍♂️, I mean what are your chances...
-            <br />
-            Do you Still remember your "perfect man" 🤷‍♀️ check list? I don't
-            think so, you probably gave up on it along time ago...😂 make one!
-            and we'll take that from you. <br />
-            Now we'll do all the heavy stuff, we'll try and find your list in
-            our database 🤞, you just wait like a boss😎.
-          </p>
+      <br />
+      <div className="wrapper inner ">
+        <h5>Here are examples of questions that may be asked</h5>
+        <div className="table-wrapper">
+          <table className="alt">
+            <thead>
+              <tr>
+                <th>Gender</th>
+                <th>About you</th>
+                <th>your preferences in your partner</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Females</td>
+                <td>?السن ,الوظيفه ,الطول ,الوزن ,لون ,هل سبق لك الأرتباط </td>
+                <td>his البشره ,الأب ,الأم ,الأخوه ,الأخوات ,السن</td>
+              </tr>
+              <tr>
+                <td>Males</td>
+                <td>
+                  age, job, skin tone, height, weight, car, estimate income,
+                  Important note about marriage, past marriages?
+                </td>
+                <td>
+                  her age, skin tone, dad, mom, sisters, brothers, deal breaker?
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </section>
+      </div>
     </section>
 
     <section id="three" className="wrapper style3 special">
@@ -163,21 +180,6 @@ const IndexPage = () => (
         <section className="row gtr-50 gtr-uniform">
           <div className=" col-6">
             <img className="image fit" src={pic4} alt="Dr Mona Soliman " />
-          </div>
-
-          <div className=" col-6">
-            <img className="image fit" src={pic4} alt="" />
-          </div>
-
-          <div className=" col-4">
-            <img className="image fit" src={pic4} alt="" />
-          </div>
-          <div className=" col-4">
-            <img className="image fit" src={pic4} alt="" />
-          </div>
-
-          <div className=" col-4">
-            <img className="image fit" src={pic4} alt="" />
           </div>
         </section>
         <div>
