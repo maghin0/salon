@@ -10,7 +10,7 @@ class Layout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isPreloaded: false
+      isPreloaded: true
     };
   }
 
@@ -53,7 +53,9 @@ class Layout extends Component {
             </Helmet>
             <div
               className={
-                isPreloaded ? 'landing main-body' : 'landing main-body'
+                isPreloaded
+                  ? 'landing main-body is-preload'
+                  : 'landing main-body'
               }
             >
               <div id="page-wrapper">
