@@ -10,7 +10,7 @@ class Layout extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isPreloaded: true,
+      isPreloaded: false
     };
   }
 
@@ -46,16 +46,14 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'keywords', content: 'site, web' }
               ]}
             >
               <html lang="en" />
             </Helmet>
             <div
               className={
-                isPreloaded
-                  ? 'landing main-body is-preload'
-                  : 'landing main-body'
+                isPreloaded ? 'landing main-body' : 'landing main-body'
               }
             >
               <div id="page-wrapper">
@@ -71,7 +69,7 @@ class Layout extends Component {
 }
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 export default Layout;
