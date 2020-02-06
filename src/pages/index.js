@@ -151,8 +151,11 @@ const IndexPage = () => (
             <tbody>
               <tr>
                 <td>Females</td>
-                <td>age, job, , height, weight, color, past marriages?</td>
-                <td>his age, skin tone, dad, mom, sisters, brothers</td>
+                <td>
+                  age, job, , height, weight, color, dad, mom, sisters, brothers
+                  past marriages?
+                </td>
+                <td>his age, skin tone, job, deal breaker? </td>
               </tr>
               <tr>
                 <td>Males</td>

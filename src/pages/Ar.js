@@ -140,7 +140,7 @@ const IndexPage = () => (
       <div className="wrapper inner ">
         <h5>Here are examples of questions that may be asked</h5>
         <div className="table-wrapper">
-          <table className="alt">
+          <table className="alt ">
             <thead>
               <tr>
                 <th>Gender</th>
@@ -148,21 +148,22 @@ const IndexPage = () => (
                 <th>your preferences in your partner</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="arabic">
               <tr>
                 <td>Females</td>
-                <td>?السن ,الوظيفه ,الطول ,الوزن ,لون ,هل سبق لك الأرتباط </td>
-                <td>his البشره ,الأب ,الأم ,الأخوه ,الأخوات ,السن</td>
+                <td>
+                  السن ,الوظيفه ,الطول ,الوزن ,لون البشره, الأب ,الأم ,الأخوه
+                  الأخوات ,هل سبق لك الأرتباط؟
+                </td>
+                <td> الوظيفه, أهم شرط في الزوج ,السن</td>
               </tr>
               <tr>
                 <td>Males</td>
                 <td>
-                  age, job, skin tone, height, weight, car, estimate income,
-                  Important note about marriage, past marriages?
+                  الوظيفه, الدخل المادي حوالي, لديك, سياره, لديك شقه ومكانها,
+                  السن
                 </td>
-                <td>
-                  her age, skin tone, dad, mom, sisters, brothers, deal breaker?
-                </td>
+                <td>الشروط المهمه في الزوجه </td>
               </tr>
             </tbody>
           </table>
