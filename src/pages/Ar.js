@@ -178,28 +178,18 @@ const IndexPage = () => (
           <p>A huge thanks to doctors who made effort into this program</p>
         </header>
 
-        <section className="row gtr-50 gtr-uniform">
-          <div className=" col-6">
-            <img className="image fit" src={pic4} alt="Dr Mona Soliman " />
+        <section className="row gtr-50 gtr-uniform aln-center">
+          <div className=" col ">
+            <img className="image fit " src={pic4} alt="" />
           </div>
         </section>
         <div>
           <br />
           <br />
-          <h6>These doctor's thoughts on the program</h6>
-          <br />
+
           <blockquote>
             "The boys, they are too shy. It's a deal breaker." <br />
             -Dr. Mona Solaiman
-          </blockquote>
-          <blockquote>
-            "To make sure what we want is what we get this is just an
-            alternative method for reproduction" <br />
-            -Dr. Mona Solaiman
-          </blockquote>
-          <blockquote>
-            "To make sure what we want is what we get this is just an
-            alternative method for reproduction" <br /> -Dr. Mona Solaiman
           </blockquote>
         </div>
       </div>
