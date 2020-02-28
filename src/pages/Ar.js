@@ -83,6 +83,18 @@ const IndexPage = () => (
             </div>
           </div>
         </form>
+        <h2 className="col-8  "> Join Us Now!</h2>
+        <div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeELX_W3WkiLKrzXOhl0L8_WFdFkEZmD_Nrt0h1KGtrGkSmwQ/viewform?vc=0&c=0&w=1">
+            <button className="primary small " style={{ marginRight: 20 }}>
+              I am a guy!
+            </button>
+          </a>
+
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQ_OFidCdUvWPQvD9vTINUqkqgkpHXDShYm9oDLmjQ51BX3w/viewform?vc=0&c=0&w=1">
+            <button className="primary small">I am a girl!</button>
+          </a>
+        </div>
       </div>
     </section>
 
@@ -196,14 +208,14 @@ const IndexPage = () => (
     </section>
 
     <section id="three" className="wrapper style4 special arabic">
-      <div className="inner">
+      {/* <div className="inner">
         <h2>
           إذا كنت مهتمًا بما نقدمه ، فقم بوضع بريدك الإلكتروني ليتم إشعارك بمجرد
           اصدار الموقع!
         </h2>
-      </div>
+      </div> */}
       <div className="inner  ">
-        <form name="contact" method="POST" data-netlify="true" action="./404">
+        {/* <form name="contact" method="POST" data-netlify="true" action="./404">
           <input type="hidden" name="contact" value="contact" />
           <div className="row ">
             <div className="col-8 ">
@@ -223,7 +235,19 @@ const IndexPage = () => (
               </Link>
             </div>
           </div>
-        </form>
+        </form> */}
+        <h2 className="col-8  "> Join Us Now!</h2>
+        <div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeELX_W3WkiLKrzXOhl0L8_WFdFkEZmD_Nrt0h1KGtrGkSmwQ/viewform?vc=0&c=0&w=1">
+            <button className="primary small " style={{ marginRight: 20 }}>
+              I am a guy!
+            </button>
+          </a>
+
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQ_OFidCdUvWPQvD9vTINUqkqgkpHXDShYm9oDLmjQ51BX3w/viewform?vc=0&c=0&w=1">
+            <button className="primary small">I am a girl!</button>
+          </a>
+        </div>
       </div>
     </section>
   </Layout>
